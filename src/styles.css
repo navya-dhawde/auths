@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 3vw;
+    text-align: center;
+    color: #212121;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3px;
+  }
+  
+  input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    padding-right: 0;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  placeholder{
+    font-family: "Quicksand", sans-serif;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: white;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1.4vw;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #484848;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .p{
+    text-decoration: none;
+  }
+
+  .validation-error {
+    color: rgb(222, 1, 1);
+    font-size: 13px;
+    margin-top: 1px;
+    margin-left: 3px;
+    font-family: "Quicksand", sans-serif;
+  }
+.pass{
+  font-size: 13px;
+  margin: 0;
+  margin-left: 3px;
+}
+div.checkbox-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+}
+
+div.checkbox-container input{
+  width: 20px;
+}
+
+.checkbox-container label{
+  font-weight: 500;
+  font-size: 1.15vw;
+  margin: 0;
+}
+.checkbox-container input[type="checkbox"] {
+  align-items: center;
+}
