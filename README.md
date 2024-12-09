@@ -1,4 +1,4 @@
-# React Sign Up and Login Form with Formik
+# Sign Up and Login Form
 
 This is a simple React application with two forms: **Sign Up** and **Login**. The application uses **Formik** for form handling and validation, **TypeScript**.
 
