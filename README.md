@@ -35,3 +35,30 @@ This is a simple React application with two forms: **Sign Up** and **Login**. Th
    ```bash
    npm start
    ```
+
+## Design Considerations:
+
+### User Experience (UX):
+
+- **Form Validation**: Each form has validation rules that give users immediate feedback on errors (e.g., "Password must be at least 8 characters"). The validation messages are clear and concise to guide the user.
+- **Success Messages**: After a successful form submission, a success message is shown, ensuring the user knows their action was successful.
+- **Password Strength Indicator**: For the Sign Up form, the password strength indicator provides users with real-time feedback as they type, helping them choose a stronger password.
+- **Responsive Design**: The form is designed to be responsive and works well on both mobile and desktop screens.
+
+### Accessibility (A11y):
+
+- Proper **ARIA roles** and **labels** are used to make the form accessible to screen readers and ensure a better experience for users with disabilities.
+- **Error Messages** are displayed in a way that they are easy to read and understand.
+- **Focus Management** is handled by the browser for form fields, and the labels are associated with the inputs using `htmlFor`.
+
+## Assumptions & Limitations:
+
+### Assumptions:
+- This app assumes the user is familiar with web forms and basic input validation concepts.
+- The project assumes that the backend API for actual authentication (e.g., user registration or login) is not available, so only a simulated success message is shown upon form submission.
+
+### Limitations:
+- The form does not yet handle form submission errors from an API.
+- The app only uses local state for form handling and does not make API calls for authentication (this would require integration with a backend service).
+- **Password Strength** is evaluated based on simple rules and does not use advanced algorithms or password scoring systems.
+
