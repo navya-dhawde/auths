@@ -23,3 +23,15 @@ This is a simple React application with two forms: **Sign Up** and **Login**. Th
    ```bash
    git clone https://github.com/your-username/react-signup-login.git
    ```
+2. **Navigate to the project directory:**:
+   ```bash
+   cd react-signup-login
+   ```
+3. **Install dependencies:** Make sure you have Node.js installed. If not, download Node.js first. Then, run the following command to install the required dependencies:
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**:
+   ```bash
+   npm start
+   ```
